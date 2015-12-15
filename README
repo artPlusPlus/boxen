@@ -1,0 +1,9 @@
+boxen
+=====
+
+boxen is a persistence system for JSON data.
+
+JSON data is managed by a Container. A Container is represented as a file on disk. Containers have a capacity on the number of objects they will manage.
+
+Containers are managed by a Depot. A Depot defines the capacity of all Containers it manages. It also provides a simple caching system for commonly request JSON objects.
+
